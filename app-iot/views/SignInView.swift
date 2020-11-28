@@ -12,11 +12,42 @@ struct SignInView: View {
     @EnvironmentObject var auth: AuthService
     
     var body: some View {
-        Button("Sign In", action: auth.signInWithWebUI)
-            .padding()
-            .background(Color.purple)
-            .foregroundColor(.white)
-            .cornerRadius(3)
+        ZStack {
+                Image("LoginBG")
+                    .resizable()
+                    .scaledToFill()
+                    .edgesIgnoringSafeArea(.all)
+                    .blur(radius: 2)
+                
+                
+                VStack {
+                    Text("Smarter Temp")
+                        .font(.largeTitle)
+                        .fontWeight(.black)
+                        .foregroundColor(.white)
+                        .padding(.top, 75)
+                    Spacer()
+                    Button(action: auth.signInWithWebUI) {
+                        HStack{
+                            Text("Connection")
+                            .padding(.horizontal)
+                            Image(systemName: "person.crop.circle.fill")
+                          }
+                            .frame(minWidth: 0, maxWidth: 250)
+                            .padding()
+                            .foregroundColor(.white)
+                            .background(Color(red: 46 / 255, green: 40 / 255, blue: 116 / 255))
+                            .cornerRadius(25)
+                            
+                        
+                    }
+                        .padding(.bottom, 75)
+                        .shadow(color: Color.purple, radius: 20, y: 5)
+                }
+                
+                    
+            }
+        
     }
 }
 

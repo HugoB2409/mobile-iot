@@ -25,8 +25,8 @@
 		15B1DD68252DECEF00E3D970 /* fetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B1DD67252DECEF00E3D970 /* fetchData.swift */; };
 		15B1DDD3252DF5DB00E3D970 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B1DDD2252DF5DB00E3D970 /* ListView.swift */; };
 		15B1DDD8252DF60600E3D970 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B1DDD7252DF60600E3D970 /* SettingView.swift */; };
-		15C635E92572A8AC002FA580 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 15C635E72572A8AC002FA580 /* amplifyconfiguration.json */; };
-		15C635EA2572A8AC002FA580 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 15C635E82572A8AC002FA580 /* awsconfiguration.json */; };
+		15C6361C2572B780002FA580 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 15C6361A2572B780002FA580 /* amplifyconfiguration.json */; };
+		15C6361D2572B780002FA580 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 15C6361B2572B780002FA580 /* awsconfiguration.json */; };
 		1738A4F75CFB04C0396AAA50 /* Pods_app_iot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBD86ACA9FC71B03F9C2047 /* Pods_app_iot.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,8 +72,8 @@
 		15B1DD67252DECEF00E3D970 /* fetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchData.swift; sourceTree = "<group>"; };
 		15B1DDD2252DF5DB00E3D970 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		15B1DDD7252DF60600E3D970 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
-		15C635E72572A8AC002FA580 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
-		15C635E82572A8AC002FA580 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		15C6361A2572B780002FA580 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		15C6361B2572B780002FA580 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		29FEE98DB1E4312A65487A51 /* Pods-app-iot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-iot.release.xcconfig"; path = "Target Support Files/Pods-app-iot/Pods-app-iot.release.xcconfig"; sourceTree = "<group>"; };
 		9BBD86ACA9FC71B03F9C2047 /* Pods_app_iot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_app_iot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -109,7 +109,7 @@
 		15A11AE1251B725C003F32B6 = {
 			isa = PBXGroup;
 			children = (
-				15C635E62572A8AC002FA580 /* configs */,
+				15C636192572B780002FA580 /* configs */,
 				15A11C06251B80D9003F32B6 /* models */,
 				15A11AEC251B725C003F32B6 /* app-iot */,
 				15A11AFE251B725C003F32B6 /* app-iotTests */,
@@ -202,11 +202,11 @@
 			path = views;
 			sourceTree = "<group>";
 		};
-		15C635E62572A8AC002FA580 /* configs */ = {
+		15C636192572B780002FA580 /* configs */ = {
 			isa = PBXGroup;
 			children = (
-				15C635E72572A8AC002FA580 /* amplifyconfiguration.json */,
-				15C635E82572A8AC002FA580 /* awsconfiguration.json */,
+				15C6361A2572B780002FA580 /* amplifyconfiguration.json */,
+				15C6361B2572B780002FA580 /* awsconfiguration.json */,
 			);
 			path = configs;
 			sourceTree = "<group>";
@@ -341,9 +341,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C6361D2572B780002FA580 /* awsconfiguration.json in Resources */,
 				15A11AF5251B725C003F32B6 /* Preview Assets.xcassets in Resources */,
-				15C635EA2572A8AC002FA580 /* awsconfiguration.json in Resources */,
-				15C635E92572A8AC002FA580 /* amplifyconfiguration.json in Resources */,
+				15C6361C2572B780002FA580 /* amplifyconfiguration.json in Resources */,
 				15A11AF2251B725C003F32B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
