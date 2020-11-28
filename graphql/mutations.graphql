@@ -1,0 +1,64 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateTodo(
+  $input: CreateTodoInput!
+  $condition: ModelTodoConditionInput
+) {
+  createTodo(input: $input, condition: $condition) {
+    id
+    sub
+    name
+    temperature
+    date
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateTodo(
+  $input: UpdateTodoInput!
+  $condition: ModelTodoConditionInput
+) {
+  updateTodo(input: $input, condition: $condition) {
+    id
+    sub
+    name
+    temperature
+    date
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteTodo(
+  $input: DeleteTodoInput!
+  $condition: ModelTodoConditionInput
+) {
+  deleteTodo(input: $input, condition: $condition) {
+    id
+    sub
+    name
+    temperature
+    date
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateUserTemp($input: CreateUserTempInput!) {
+  createUserTemp(input: $input) {
+    TempTimeStamp
+    UserId
+    Temperature
+  }
+}
+mutation UpdateUserTemp($input: UpdateUserTempInput!) {
+  updateUserTemp(input: $input) {
+    TempTimeStamp
+    UserId
+    Temperature
+  }
+}
+mutation DeleteUserTemp($input: DeleteUserTempInput!) {
+  deleteUserTemp(input: $input) {
+    TempTimeStamp
+    UserId
+    Temperature
+  }
+}

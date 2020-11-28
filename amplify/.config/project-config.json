@@ -1,0 +1,8 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "siteiot",
+  "version": "3.0",
+  "frontend": "ios"
+}

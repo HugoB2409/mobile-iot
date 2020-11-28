@@ -1,0 +1,51 @@
+# this is an auto generated file. This will be overwritten
+query GetTodo($id: ID!) {
+  getTodo(id: $id) {
+    id
+    sub
+    name
+    temperature
+    date
+    createdAt
+    updatedAt
+  }
+}
+query ListTodos(
+  $filter: ModelTodoFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listTodos(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      sub
+      name
+      temperature
+      date
+      createdAt
+      updatedAt
+    }
+    nextToken
+  }
+}
+query GetUserTemp($UserId: Int!, $TempTimeStamp: String!) {
+  getUserTemp(UserId: $UserId, TempTimeStamp: $TempTimeStamp) {
+    TempTimeStamp
+    UserId
+    Temperature
+  }
+}
+query ListUserTemps(
+  $filter: TableUserTempFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listUserTemps(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      TempTimeStamp
+      UserId
+      Temperature
+    }
+    nextToken
+  }
+}

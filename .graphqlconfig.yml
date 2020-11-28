@@ -1,0 +1,18 @@
+projects:
+  API-IOT:
+    schemaPath: graphql/schema.json
+    includes:
+      - graphql/**/*.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: swift
+        generatedFileName: API.swift
+        docsFilePath: graphql
+        region: us-east-2
+        apiId: 7tzqnpptjfgz5oeq225chzlen4
+        maxDepth: 2
+extensions:
+  amplify:
+    version: 3

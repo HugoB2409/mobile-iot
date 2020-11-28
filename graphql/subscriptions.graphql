@@ -1,0 +1,79 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateTodo {
+  onCreateTodo {
+    id
+    sub
+    name
+    temperature
+    date
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateTodo {
+  onUpdateTodo {
+    id
+    sub
+    name
+    temperature
+    date
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteTodo {
+  onDeleteTodo {
+    id
+    sub
+    name
+    temperature
+    date
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateUserTemp(
+  $TempTimeStamp: String
+  $UserId: Int
+  $Temperature: Float
+) {
+  onCreateUserTemp(
+    TempTimeStamp: $TempTimeStamp
+    UserId: $UserId
+    Temperature: $Temperature
+  ) {
+    TempTimeStamp
+    UserId
+    Temperature
+  }
+}
+subscription OnUpdateUserTemp(
+  $TempTimeStamp: String
+  $UserId: Int
+  $Temperature: Float
+) {
+  onUpdateUserTemp(
+    TempTimeStamp: $TempTimeStamp
+    UserId: $UserId
+    Temperature: $Temperature
+  ) {
+    TempTimeStamp
+    UserId
+    Temperature
+  }
+}
+subscription OnDeleteUserTemp(
+  $TempTimeStamp: String
+  $UserId: Int
+  $Temperature: Float
+) {
+  onDeleteUserTemp(
+    TempTimeStamp: $TempTimeStamp
+    UserId: $UserId
+    Temperature: $Temperature
+  ) {
+    TempTimeStamp
+    UserId
+    Temperature
+  }
+}
