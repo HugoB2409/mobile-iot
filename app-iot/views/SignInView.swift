@@ -38,16 +38,11 @@ struct SignInView: View {
                             .foregroundColor(.white)
                             .background(Color(red: 46 / 255, green: 40 / 255, blue: 116 / 255))
                             .cornerRadius(25)
-                            
-                        
                     }
                         .padding(.bottom, 75)
                         .shadow(color: Color.purple, radius: 20, y: 5)
                 }
-                
-                    
             }
-        
     }
 }
 

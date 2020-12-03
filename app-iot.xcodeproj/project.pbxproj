@@ -55,7 +55,7 @@
 		1574A5D52524FB2B0091DDE1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		1586205E252F3C4A004D1459 /* SubscribeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeData.swift; sourceTree = "<group>"; };
 		15862063252F4507004D1459 /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
-		15A11AEA251B725C003F32B6 /* app-iot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-iot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A11AEA251B725C003F32B6 /* Smarter Temp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smarter Temp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A11AED251B725C003F32B6 /* app_iotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_iotApp.swift; sourceTree = "<group>"; };
 		15A11AF1251B725C003F32B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15A11AF4251B725C003F32B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		15A11AEB251B725C003F32B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15A11AEA251B725C003F32B6 /* app-iot.app */,
+				15A11AEA251B725C003F32B6 /* Smarter Temp.app */,
 				15A11AFB251B725C003F32B6 /* app-iotTests.xctest */,
 				15A11B06251B725C003F32B6 /* app-iotUITests.xctest */,
 			);
@@ -251,7 +251,7 @@
 				153E9C99253F899C00EC459F /* SwiftUIRefresh */,
 			);
 			productName = "app-iot";
-			productReference = 15A11AEA251B725C003F32B6 /* app-iot.app */;
+			productReference = 15A11AEA251B725C003F32B6 /* Smarter Temp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		15A11AFA251B725C003F32B6 /* app-iotTests */ = {
@@ -592,7 +592,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "app-iot.com";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Smarter Temp";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -616,7 +616,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "app-iot.com";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Smarter Temp";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

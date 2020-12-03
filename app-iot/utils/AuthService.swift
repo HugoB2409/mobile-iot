@@ -16,9 +16,12 @@ class AuthService: ObservableObject {
         _ = Amplify.Auth.fetchAuthSession { [weak self] result in
             switch result {
             case .success(let session):
+                print("tettt")
                 print(Amplify.Auth.getCurrentUser() as Any)
+                
                 DispatchQueue.main.async {
                     self?.isSignedIn = session.isSignedIn
+                    self?.fetchSub()
                 }
                 
             case .failure(let error):
@@ -111,9 +114,8 @@ class AuthService: ObservableObject {
             }
             group.leave()
         }
-
+        
         group.wait()
-        GlobalState.UserSub = usersub
         
     }
     
